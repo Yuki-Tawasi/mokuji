@@ -1,0 +1,10 @@
+/************************
+** 目次のハイライト
+************************/
+a.mkj-active {
+    background-color: #D7D7D7;
+}
+
+li.mkj-marker::before {
+    background-color: #D7D7D7;
+}
