@@ -8,3 +8,26 @@ a.mkj-active {
 li.mkj-marker::before {
     background-color: #D7D7D7;
 }
+
+/************************
+** サイドバーカスタムHTML高さでスクロール(もくじ向け)
+************************/
+.rtoc_mokuji_widget {
+  max-height: 800px;
+  overflow-y: auto;
+}
+/*スクロールバー全体*/
+.rtoc_mokuji_widget::-webkit-scrollbar {
+    width: 8px;
+}
+/*スクロールバーの軌道*/
+.rtoc_mokuji_widget::-webkit-scrollbar-track {
+  border-radius: 2px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+}
+/*スクロールバーの動く部分*/
+.rtoc_mokuji_widget::-webkit-scrollbar-thumb {
+  background-color: rgba(180, 180, 180, .5);
+  border-radius: 2px;
+  box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+}
