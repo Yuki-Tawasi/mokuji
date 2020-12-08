@@ -27,7 +27,7 @@ RTOCって自動でサイドバーにでないですよね。
 ## function.phpの内容を子テーマのfunction.phpに追記
 
 テストした環境が１ケースのみなので、８行目が人によっては変更する必要があるかもしれない。
-うまく行かない場合、 <http://tawasimusi.com/sodansiyo/> まで問い合わせください。
+うまく行かない場合、 <https://tawasimusi.com/sodanshiyo/> まで問い合わせください。
 あなたのサイトを確認して変更内容をお伝えします。
 
 ```
