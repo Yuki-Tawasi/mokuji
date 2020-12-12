@@ -26,12 +26,16 @@ RTOCって自動でサイドバーにでないですよね。
 
 ## function.phpの内容を子テーマのfunction.phpに追記
 
-テストした環境が１ケースのみなので、８行目が人によっては変更する必要があるかもしれない。
+テストした環境が１ケースのみなので、9行目、24行目が人によって変更する必要があると思います。
 うまく行かない場合、 <https://tawasimusi.com/sodanshiyo/> まで問い合わせください。
 あなたのサイトを確認して変更内容をお伝えします。
 
 ```
 const hashes = document.querySelectorAll('.widget.rtoc_mokuji_widget a');
+```
+
+```
+el && el.closest('.rtoc-mokuji > li').classList.add('mkj-marker');
 ```
 
 JINの子テーマはこちらから→ <https://jin-theme.com/update/#rtoc-14>
